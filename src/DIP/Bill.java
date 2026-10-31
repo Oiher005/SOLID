@@ -12,11 +12,11 @@ public class Bill {
     public int deductionPercentage; 
 
     
-    private final DeductionCalculator deductionCalculator;
-    private final VATCalculator vatCalculator;
+    private final IDeductionCalculator deductionCalculator;
+    private final IVATCalculator vatCalculator;
 
     
-    public Bill(DeductionCalculator deductionCalculator, VATCalculator vatCalculator) {
+    public Bill(IDeductionCalculator deductionCalculator, IVATCalculator vatCalculator) {
         this.deductionCalculator = deductionCalculator;
         this.vatCalculator = vatCalculator;
     }

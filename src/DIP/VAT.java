@@ -1,6 +1,6 @@
 package DIP;
 
-public class VAT implements VATCalculator {
+public class VAT implements IVATCalculator {
     @Override
     public float cal(float initialAmount) {
         // Lógica de cálculo de IVA
