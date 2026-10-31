@@ -1,8 +1,6 @@
 package LSK;
 
-class Car  implements Motor,Matricula{ 
-String name; 
-double speed; 
+class Car extends TransportationDevice implements Motor, Matricula {
 String mat;
 	@Override 
 	public void startEngine() { 

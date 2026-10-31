@@ -1,8 +1,6 @@
- package LSK;
+package LSK;
 
-class  Trailer implements Matricula { 
-	String name; 
-	double speed; 
+class Trailer extends TransportationDevice implements Matricula {
 	String mat;
 
 	@Override

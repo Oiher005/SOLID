@@ -1,8 +1,6 @@
- package LSK;
+package LSK;
 
-class  Skate implements Motor { 
-	String name; 
-	double speed; 
+class Skate extends TransportationDevice implements Motor {
 	@Override
 	public void startEngine() { 
 	} 
